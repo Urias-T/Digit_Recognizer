@@ -127,10 +127,12 @@ plt.plot(epochs, acc, "red", label="Training Accuracy")
 plt.plot(epochs, val_acc, "blue", label="Validation Accuracy")
 plt.title("Training and Validation Accuracies")
 
+plt.legend()
+plt.show()
+
 plt.plot(epochs, loss, "red", label="Training Loss")
 plt.plot(epochs, val_loss, "blue", label="Validation Loss")
 plt.title("Training and Validation Losses")
 
 plt.legend()
-
 plt.show()
